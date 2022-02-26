@@ -1,0 +1,31 @@
+/* Edits the HTML elements to look and be positioned how we want */
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#form {
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+#graph {
+    width: 99%;
+}
+
+.result {
+    background-color: white;
+    width: 20%;
+    align-self: center;
+    border: 1px solid black;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}

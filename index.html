@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://cdn.plot.ly/plotly-2.9.0.min.js'></script>
+    <title>M3 Challenge</title>
+</head>
+
+<body>
+    <!-- Container that content is inside of -->
+    <div class="container">
+        <!-- Title for page -->
+        <h2 class="title">Remote Jobs Per City</h2>
+        <form id="form">
+            <!-- The Dropdown menu with options -->
+            <select type="dropdown" placeholder="Pick A City" id="input">
+                <option value="Seattle">Seattle</option>
+                <option value="Omaha">Omaha</option>
+                <option value="Scranton">Scranton</option>
+            </select>
+            <input type="submit" />
+        </form>
+        <div id="graph-container">
+            <!-- This is the graph that will not display until answer made -->
+           <div id="graph"></div> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
